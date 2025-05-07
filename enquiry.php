@@ -16,16 +16,16 @@ $date = date('Y-m-d');
 //echo($mobile) ;
 //echo($depDate);
 
-//$message = "Dear Dream Voyage,<br>Following Enquiry posted from bookdreamvoyage.com<p> Mobile Number :".$mobile."</p> "."<p>Package Type : ".$packageType."</p><p>Name of Customer ".$name."</p><p>Departure Date:".$depDate."</p>";
+$message = "Dear Dream Voyage,<br>Following Enquiry posted from bookdreamvoyage.com<p> Mobile Number :".$mobile."</p> "."<p>Package Type : ".$packageType."</p><p>Name of Customer ".$name."</p><p>Departure Date:".$depDate."</p>";
 
-$message="Dear Dream Voyage,<br>Following Enquiry posted from bookdreamvoyage.com<p> Mobile Number :".$mobile."</p>";
+//$message="Dear Dream Voyage,<br>Following Enquiry posted from bookdreamvoyage.com<p> Mobile Number :".$mobile."</p>";
 
 mail($to, $subject, $message, "From:" . $email);
 
 $servername = "localhost";
-$username = "dreamvoyage2024";
+$username = "bookdrea_dreamvoyage2024";
 $password = "Dreamvoyage2024";
-$dbname = "dreamvoyage";
+$dbname = "bookdrea_dreamvoyage";
 
 ini_set('display_errors', 'On'); ini_set('html_errors', 0); error_reporting(-1);
 
